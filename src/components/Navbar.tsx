@@ -97,15 +97,6 @@ export const Navbar = () => {
                       {label}
                     </a>
                   ))}
-                  <a
-                    rel="noreferrer noopener"
-                    href="mailto:gabriel.guzman2201@alumnos.ubiobio.cl"
-                    className={buttonVariants({
-                      variant: "secondary",
-                    })}
-                  >
-                    Contacto
-                  </a>
                 </nav>
               </SheetContent>
             </Sheet>
@@ -128,14 +119,6 @@ export const Navbar = () => {
           </nav>
 
           <div className="hidden md:flex gap-2">
-            <a
-              rel="noreferrer noopener"
-              href="mailto:gabriel.guzman2201@alumnos.ubiobio.cl"
-              className={`border ${buttonVariants({ variant: "secondary" })}`}
-            >
-              Contacto
-            </a>
-
             <ModeToggle />
           </div>
         </NavigationMenuList>
