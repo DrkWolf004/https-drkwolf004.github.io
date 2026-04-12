@@ -1,4 +1,3 @@
-import { buttonVariants } from "./ui/button";
 import { BenefitCards } from "./BenefitCards";
 
 export const Hero = () => {
