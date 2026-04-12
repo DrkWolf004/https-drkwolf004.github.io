@@ -18,24 +18,6 @@ export const Hero = () => {
           Conecta la planificación docente con ejercicios interactivos, evaluación continua y recomendaciones personalizadas para cada estudiante.
         </p>
 
-        <div className="space-y-4 md:space-y-0 md:space-x-4">
-          <a
-            rel="noreferrer noopener"
-            href="#problem"
-            className={buttonVariants({ variant: "default" })}
-          >
-            Ver propuesta
-          </a>
-
-          <a
-            rel="noreferrer noopener"
-            href="mailto:gabriel.guzman2201@alumnos.ubiobio.cl"
-            className={buttonVariants({ variant: "outline" })}
-          >
-            Contactar
-          </a>
-        </div>
-
         <div className="grid grid-cols-3 gap-4 mt-10">
           <div className="rounded-3xl border border-muted/50 p-5 text-left">
             <span className="text-3xl font-bold">Educación</span>
